@@ -1,0 +1,53 @@
+[33m10672aa[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m Update game shell, mudclient, dist files
+[33m3608f10[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m webrtc/webworker support, total/remaining exp
+[33mee9649c[m login screen font, model lighting, refactoring
+[33mfaa6c35[m fix option menu size
+[33m56843ed[m faster setComplete
+[33m43d1d42[m remove fixPixel, save memory
+[33m025dfe9[m fullscreen, mobile touch, combat ui
+[33m1ac340c[m mobile chat and ask option menu
+[33m92afdd4[m more mobile ui
+[33m03f0cde[m mobile social and options
+[33m6c1a196[m mobile UI tab setting
+[33mbfcc36f[m begin in-game mobile ui
+[33m559ef14[m expand mobile checkbox area, minor surface refactoring
+[33mead79e9[m mobile input position & caret
+[33mf8affe8[m mobile keyboard
+[33mc195639[m refactor remaining packet handlers
+[33mb1a477c[m refactor packet handlers
+[33mcdf8d3a[m rest of the files
+[33m400812b[m refactor appearance ui, update readme
+[33m925d519[m refactor socket, upgrade dependencies
+[33m14e2172[m move bank to ui/
+[33mcbf6cf6[m move sleep to ui/
+[33md526b7c[m more UI refactoring, revert qsort for now
+[33mfee5a26[m replace scene qsort with native sort
+[33m5b4db62[m Merge pull request #7 from subjectivelyobjective/master
+[33m73c32ee[m add retro fps counter, make wildy skull independent of gameWidth, change quotes
+[33m8c70196[m add message scrollback
+[33mdcd274e[m fix projectile sprites
+[33ma2f35e8[m fix "use with" in inventory
+[33m2fa3c54[m add rscgo link
+[33m852eba3[m more refactoring and fixed chrome rendering
+[33mdbfe05c[m add password dialog and more refactoring
+[33m561a2c5[m add registration, prefer_const refactoring
+[33m94decc8[m audit fix
+[33m131ff46[m building
+[33md477c5e[m more refactoring and a bit of reformatting
+[33m63930f7[m prettier and even more UI refactoring
+[33m2146ae2[m more UI refacotoring
+[33m07db154[m cleanups and code separation
+[33mbdde27e[m dependencies and linting
+[33me3a8bb1[m add camera zoom and roof removal
+[33m4b115db[m add compass reset
+[33m8909455[m mouse wheel support
+[33md16aae5[m s/==/===/g
+[33m671b535[m middle click camera
+[33m9b6e352[m[33m ([m[1;31morigin/unaltered-204[m[33m)[m implement backspace
+[33m9832c3d[m fix scroll dragging
+[33m07e7f7f[m fix username decoding and non-existent method
+[33m469d291[m s/String.valueOf/toString - should fix trade/duel stacks
+[33m0650c39[m fix skulls and NPCs
+[33mfb0da0b[m s/u/U for private message
+[33m2df1da5[m object menus and large packet reading
+[33m64aeaff[m init

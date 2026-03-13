@@ -1,0 +1,12 @@
+{
+    "port": 9001,
+    "tcpHost": "localhost",
+    "tcpPort": 9001,
+    "sockFile": null,
+    "sqliteFile": "./rsc-data-server.sqlite",
+    "backupDirectory": "./backups",
+    "password": "$2y$10$wufvP1CJMLYmBHKl2Ah2k.CGQwQV5aUMIcXrPNUfmqJ9ibNhhvFnS",
+    "passwordHashRounds": 10,
+    "recoveryHashRounds": 15,
+    "playersPerIP": 1
+}
