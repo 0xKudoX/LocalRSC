@@ -39,7 +39,7 @@ if (typeof window === 'undefined') {
 
     document.body.appendChild(fullscreen);
 
-    await mc.startApplication(512, 346, 'Runescape by Andrew Gower');
+    await mc.startApplication(1024, 692, 'Runescape by Me');
 })();
 
 },{"./src/mudclient":243}],2:[function(require,module,exports){
@@ -37708,7 +37708,7 @@ ChatMessage.charMap = new Uint16Array(
         '#',
         '+',
         '=',
-        '\243',
+        '\\',
         '$',
         '%',
         '"',
@@ -40486,7 +40486,7 @@ const version = require('./version');
 const sleep = require('sleep-promise');
 
 const CHAR_MAP =
-    'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!"\243$%^&' +
+    'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!"\$%^&' +
     "*()-_=+[{]};:'@#~,<.>/?\\| ";
 
 const FONTS = [
@@ -40528,8 +40528,8 @@ class GameShell {
         this._container.style.position = 'relative';
 
         this._canvas = document.createElement('canvas');
-        this._canvas.style.width = '100%';
-        this._canvas.style.height = '100%';
+        this._canvas.style.width = '1024px';
+        this._canvas.style.height = '692px';
 
         this._container.appendChild(this._canvas);
 
@@ -40567,8 +40567,8 @@ class GameShell {
         this.imageLogo = null;
         this.graphics = null;
 
-        this.appletWidth = 512;
-        this.appletHeight = 346;
+        this.appletWidth = 1024;
+        this.appletHeight = 692;
         this.targetFPS = 20;
         this.maxDrawTime = 1000;
         this.loadingStep = 1;
@@ -40605,6 +40605,7 @@ class GameShell {
         this._container.style.height = `${height}px`;
 
         console.log('Started application');
+            console.log('canvas size:', width, height); // ADD THIS LINE
 
         this.appletWidth = width;
         this.appletHeight = height;
@@ -40707,7 +40708,7 @@ class GameShell {
         this._canvas.addEventListener('keydown', this.keyPressed.bind(this));
         this._canvas.addEventListener('keyup', this.keyReleased.bind(this));
 
-        window.addEventListener('beforeunload', () => this.onClosing());
+        //window.addEventListener('beforeunload', () => this.onClosing());
 
         if (this.options.mobile) {
             this.toggleKeyboard = false;
@@ -42231,8 +42232,8 @@ class mudclient extends GameConnection {
         this.magicLoc = 128;
         this.errorLoadingMemory = false;
         this.fogOfWar = false;
-        this.gameWidth = 512;
-        this.gameHeight = 334;
+        this.gameWidth = 1024;
+        this.gameHeight = 692;
         this.tradeConfirmItems = new Int32Array(14);
         this.tradeConfirmItemCount = new Int32Array(14);
         this.tradeRecipientName = '';

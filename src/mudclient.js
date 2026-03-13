@@ -265,8 +265,8 @@ class mudclient extends GameConnection {
         this.magicLoc = 128;
         this.errorLoadingMemory = false;
         this.fogOfWar = false;
-        this.gameWidth = 512;
-        this.gameHeight = 334;
+        this.gameWidth = 1024;
+        this.gameHeight = 692;
         this.tradeConfirmItems = new Int32Array(14);
         this.tradeConfirmItemCount = new Int32Array(14);
         this.tradeRecipientName = '';
