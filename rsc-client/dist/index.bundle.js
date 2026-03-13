@@ -65957,7 +65957,7 @@ module.exports = Utility;
 },{"./bzlib":228,"./lib/net/file-download-stream":240,"long":167}],310:[function(require,module,exports){
 module.exports={
     "CLIENT": 204,
-    "CONFIG": 85,
+    "CONFIG": 86,
     "ENTITY": 24,
     "FILTER": 2,
     "FONTS": 1,

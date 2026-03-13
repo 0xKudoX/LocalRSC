@@ -1,1 +1,13 @@
 node_modules
+
+!rsc-server/node_modules/
+!rsc-server/node_modules/@2003scape/
+!rsc-server/node_modules/@2003scape/rsc-archiver/
+!rsc-server/node_modules/@2003scape/rsc-archiver/src/
+!rsc-server/node_modules/@2003scape/rsc-archiver/src/index.js
+!rsc-server/node_modules/bzip2-wasm/
+!rsc-server/node_modules/bzip2-wasm/bzip2-1.0.8/
+!rsc-server/node_modules/bzip2-wasm/bzip2-1.0.8/bzip2.mjs
+!rsc-server/node_modules/@2003scape/rsc-config/
+!rsc-server/node_modules/@2003scape/rsc-config/src/
+!rsc-server/node_modules/@2003scape/rsc-config/src/index.js

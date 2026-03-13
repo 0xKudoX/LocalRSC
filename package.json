@@ -3,11 +3,14 @@
   "version": "1.1.0",
   "description": "runescape classic web client",
   "main": "./src/mudclient.js",
+  
   "scripts": {
     "build-dev": "browserify -t bulkify -t brfs index.js > dist/index.bundle.js",
     "build": "browserify -t bulkify -p tinyify index.js > dist/index.bundle.min.js",
     "start": "st -p 1337 -nc -d dist"
+    
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/2003scape/rsc-client.git"
